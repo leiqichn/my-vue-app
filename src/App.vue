@@ -5,7 +5,8 @@
   </div>
   <router-link to="/test">前往 Test 页面</router-link> <!-- 导航链接 -->
     <router-link to="/v-bind">前往 Attribute绑定页面</router-link> <!-- 导航链接 -->
-      <router-link to="/v-on">前往 v-on 事件监听页面</router-link> <!-- 导航链接 -->
+      <router-link to="/v-on">前往 v-on 事件监听页面</router-link>
+  <router-link to="/v-model">前往 v-model双向绑定页面</router-link>
   <router-view/> <!-- 路由视图出口 -->
 </template>
 
